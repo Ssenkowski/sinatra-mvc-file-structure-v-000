@@ -3,6 +3,7 @@ class Dog
 
   def initialize(name, breed, age)
     @name, @breed, @age = name, breed, age
+    Dog.new(name, breed, age)
   end
 
 end
